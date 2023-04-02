@@ -1,0 +1,18 @@
+comando en la terminal
+
+gulp
+
+sugerencia npx gulp
+
+comando para instalar node_modules
+
+npm i 
+
+
+sugerencia 
+gulp-autoprefixer
+gulp-postcss
+
+npm install -- save-dev gulp-postcss gulp-autoprefixer
+
+npm install --global gulp-cli 

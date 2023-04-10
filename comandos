@@ -14,5 +14,9 @@ gulp-autoprefixer
 gulp-postcss
 
 npm install -- save-dev gulp-postcss gulp-autoprefixer
+npm install --save-dev gulp-postcss gulp-autoprefixer
 
+composer update
+npx gulp default
+npm run dev
 npm install --global gulp-cli 

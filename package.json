@@ -4,9 +4,12 @@
   "description": "Curso Desarrollo Web Completo",
   "main": "gulpfile.js",
   "scripts": {
-    "dev": "gulp"
+    "dev": "gulp",
+    "sass": "sass --watch src/scss:build.scss",
+    "default": "default",
+    "css": "gulp css"
   },
-  "author": "Juan De La Torre",
+  "author": "oscar cervantes rosales",
   "license": "ISC",
   "devDependencies": {
     "cssnano": "^5.1.0",
@@ -23,7 +26,7 @@
     "gulp-sourcemaps": "^3.0.0",
     "gulp-terser-js": "^5.2.2",
     "gulp-webp": "^4.0.1",
-    "sass": "^1.49.9",
+    "sass": "^1.61.0",
     "terser": "^4.8.0"
   }
 }

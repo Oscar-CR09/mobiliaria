@@ -20,3 +20,17 @@ composer update
 npx gulp default
 npm run dev
 npm install --global gulp-cli 
+
+instalar sass 
+npx install sass 
+
+npm install sass --save-dev
+
+npm run sass
+
+nmp i --save-dev gulp -sass
+
+instalando gulp
+npm i -D gulp  
+
+

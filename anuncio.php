@@ -1,53 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bienes raices</title>
-    <link rel="stylesheet" href="build/css/app.css">
-
-</head>
-<body>
-    <header class="header">
-        <div class="contenedor cntenido-header">
-            <div class="barra">
-                <a href="/">
-                    <img src="build/img/logo.svg" alt="Logo Tipo de Bienes Raices">
-                </a>
-                <div class="mobile-menu">
-                    <img src="build/img/barras.svg" alt="icono de menu responcivo">
-
-                </div>
-                <div class="derecha">
-                    <img class="dark-mode-boton" src="build/img/dark-mode.svg" alt="dark">
-                    <nav class="navegacion">
-                        <a href="nosotros.html">Nosotros</a>
-                        <a href="anuncios.html">Anuncios</a>
-                        <a href="blog.html">Blog</a>
-                        <a href="contacto.html">Contacto</a>
-                    </nav>
-                </div>
-            </div>
-            <!-- cierrer de la barra -->
-            
-        </div>
-
-    </header>
+<?php
+    include '/includes/templates/header.php';
+?>
 
     <main class="contenedor seccion contenido-centrado">
-        <h1 >Casa en venta frente al bosque </h1>
+        <h1>Casa en venta frente al bosque </h1>
 
         <picture>
-            <source srcset="build/img/destacada2.webp" type="imag/webp">
-            <source srcset="build/img/destacada2.jpg" type="imag/jpeg">
-            <img src="build/img/destacada2.jpg" alt="imagen de la Propiedad">
-
-            <p class="informacion-meta">Escrito el : <span>08/04/2023 </span> por: <span>Administrador</span></p>
+            <source srcset="build/img/destacada.webp" type="imag/webp">
+            <source srcset="build/img/destacada.jpg" type="imag/jpeg">
+            <img src="build/img/destacada.jpg" alt="imagen de la Propiedad">
 
         </picture>
         <div class="resumen-propiedad">
+            <p class="precio">3,000,000</p>
+            <ul class="iconos-caracteristicas">
+                <li>
+                    <img class="icono"  src="build/img/icono_wc.svg" alt="icono wc">
+                    <p>3</p>
+                </li>
+                <li>
+                    <img class="icono"  src="build/img/icono_estacionamiento.svg" alt="icono_estacionamiento">
+                    <p>3</p>
+                </li>
+                <li>
+                    <img class="icono"  src="build/img/icono_dormitorio.svg" alt="icono habitaciones">
+                    <p>4</p>
+                </li>
 
+            </ul>
             <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Rem obcaecati minus facilis, consequuntur nulla perferendis illo ex! Ipsum,

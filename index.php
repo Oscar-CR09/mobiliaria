@@ -1,41 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bienes raices</title>
-    <link rel="stylesheet" href="build/css/app.css">
+<?php
 
-</head>
-<body>
-    <header class="header inicio">
-        <div class="contenedor contenido-header">
-            <div class="barra">
-                <a href="/">
-                    <img  src="build/img/logo.svg" alt="Logo Tipo de Bienes Raices">
-                </a>
+    require 'includes/funciones.php';
+    $inicio = true;
+    incluirTemplate('header');
+?>
 
-                <div class="mobile-menu">
-                    <img src="build/img/barras.svg" alt="icono de menu responcivo">
-
-                </div>
-                <div class="derecha">
-                    <img class="dark-mode-boton" src="build/img/dark-mode.svg" alt="dark">
-                    <nav class="navegacion">
-                        <a href="nosotros.html">Nosotros</a>
-                        <a href="anuncios.html">Anuncios</a>
-                        <a href="blog.html">Blog</a>
-                        <a href="contacto.html">Contacto</a>
-                    </nav>
-                </div>
-                
-            </div>
-            <!-- cierrer de la barra -->
-            <h1>Venta de Casas y Departamentos Exclucivos de Lujo</h1>
-        </div>
-
-    </header>
 
     <main class="contenedor seccion">
         <h1>Mas sobre Nosotros</h1>

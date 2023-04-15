@@ -1,7 +1,10 @@
 <?php
-    include '/includes/templates/header.php';
-?>
 
+    require 'includes/funciones.php';
+    
+    incluirTemplate('header');
+    
+?>
     <main class="contenedor seccion contenido-centrado">
         <h1 >Casa en venta frente al bosque </h1>
 

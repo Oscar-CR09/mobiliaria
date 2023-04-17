@@ -10,9 +10,11 @@
         <div class="contenido-nosotros">
             <div class="imagen">
                 <picture>
-                    <source srcset="/build/img/nosotros.webp" type="ima/webp">
-                    <source srcset="/build/img/nosotros.jpg" type="ima/jpeg">
-                    <img  src="/build/img/nosotros.jpg" alt="Sobre nosotros">
+
+                    <source srcset="build/img/nosotros.jpg" type="ima/jpeg">
+                    <source srcset="build/img/nosotros.webp" type="ima/webp">
+                    
+                    <img  src="build/img/nosotros.jpg" alt="Sobre nosotros">
     
                 </picture>
             </div>
@@ -71,22 +73,8 @@
         </div>
     </section>  
 
-    <footer class="footer seccion">
-        <div class="contenedor contenedor-footer">
-            <nav class="navegacion">
-                <a href="nosotros.html">Nosotros</a>
-                <a href="anuncios.html">Anuncios</a>
-                <a href="blog.html">Blog</a>
-                <a href="contacto.html">Contacto</a>
-            </nav>
+<?php
 
-        </div> 
+    incluirTemplate('footer',$inicio = true);
 
-        <p class="copyrigth">Todos los derechos Reservados 2023 &copy;</p>
-
-    </footer>
-
-    <script> src= '/build/js/bundle.min.js'</script>
-    
-</body>
-</html>
+?>

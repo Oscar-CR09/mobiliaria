@@ -12,10 +12,10 @@
         <p class="copyrigth">Todos los derechos Reservados <?php echo date('Y'); ?> &copy;</p>
 
 
-        <!-- <?php
-            $fecha = date('Y-m-d');
-            echo $fecha;
-        ?> -->
+        //<?php
+        //    $fecha = date('Y-m-d');
+        //    echo $fecha;
+        //?> 
 
     </footer>
 
